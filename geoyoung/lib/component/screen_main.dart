@@ -145,7 +145,7 @@ class ScanscreenState extends State<Scanscreen> {
     phoneNumber += '-';
     phoneNumber += temp.substring(7, 11);
 
-    // TODO: 배송중 회송
+    // TODO: 배송중 회송 //test
     try {
       var client = http.Client();
       var uri = Uri.parse('http://175.126.232.236:8987/bb');
